@@ -41,7 +41,7 @@ const parseInput = (
 
   let errorMessages: string[] = [];
 
-  const [xString, yDirectionString] = input.trim().split(",");
+  const [xString, yDirectionString] = input.toUpperCase().trim().split(",");
   const x = +xString;
   if (isNaN(x)) {
     errorMessages = [...errorMessages, "Invalid X Value"];
