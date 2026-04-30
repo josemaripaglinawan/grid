@@ -240,7 +240,7 @@ export const VALID_DIRECTION_CASING: Story = {
     parameters: {
         docs: {
             description: {
-                story: 'Valid input with casing insensitive. \n\nInput: `3,3 sOUtH`'
+                story: 'Valid input with casing insensitive. Allowed case insensitivity for better usability. \n\nInput: `3,3 sOUtH`'
             }
         }   
     }
